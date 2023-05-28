@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Minha Página</title>
+  <style>
+    body {
+      background-color: #6B2444;
+      color: white;
+      font-family: 'Didot', serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .toolbar {
+      background-color: black;
+      height: 40px;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 999;
+    }
+    
+    .toolbar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .toolbar li {
+      display: inline-block;
+    }
+    
+    .toolbar a {
+      color: #D4AF37; /* cor dourada */
+      text-decoration: none;
+      padding: 5px 10px;
+      font-size: 20px;
+      margin-top: 1px; /* margem superior adicionada */
+    }
+    
+    .toolbar .image-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    
+    .toolbar .image-container img {
+      height: 60px;
+      width: auto;
+      display: block;
+    }
+    
+    .content {
+      margin-top: 60px;
+      padding: 20px;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Didot&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="toolbar">
+    <ul>
+      <li class="image-container">
+        <img src="https://i.postimg.cc/fksSBgrZ/image.png" alt="Imagem">
+      </li>
+      <li><a href="#">Página Inicial</a></li>
+      <li><a href="#">Sobre</a></li>
+      <li><a href="#">Contato</a></li>
+      <li><a href="#">Clube do Vinho</a></li>
+      <li><a href="#">Cervejas</a></li>
+      <li><a href="#">Destilados</a></li>
+      <li><a href="#">Login</a></li>
+      <li><a href="#">Cadastre-se</a></li>
+    </ul>
+  </div>
+  
+  <div class="content">
+    <h1>Bem-vindo à minha página!</h1>
+  
+    <p>Este é apenas um exemplo de uma página HTML com uma barra de ferramentas posicionada fixa no topo do texto. O conteúdo está agora abaixo da barra de ferramentas.</p>
+  </div>
+</body>
+</html>
